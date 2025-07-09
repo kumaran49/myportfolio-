@@ -1,0 +1,66 @@
+body {
+  background: lightblue;
+  font-family: 'Roboto',sans-serif;
+}
+/* Style for the photo in About section */
+#about img {
+  width: 150px;           /* Makes photo 150px wide */
+  height: 150px;          /* Makes photo 150px tall */
+  border-radius: 50%;     /* Makes photo round */
+  object-fit: cover;      /* Crops photo inside circle if needed */
+  display: block;         /* Makes it a block element */
+  margin: 20px auto;      /* Adds space & centers it */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adds soft shadow */
+}
+header {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+section {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+#projects {
+  text-align: center;
+}
+
+.project {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+#resume {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#resume a {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
